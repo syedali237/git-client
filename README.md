@@ -1,9 +1,12 @@
 # A Git-Client written in Python.
 
-### Using
+## Using
 __Initialize .git in a repo:__ `python script.py init repo_path`
+
 __Adding to the staging area:__ `python script.py add file_name1 file_name2`
+
 __Commiting:__ `python script.py commit -m "your message"`
+
 __Status:__ `python script.py status`
 
 (Will be adding function for reset: to undo changes in a Git repository by moving the current branch pointer to a previous commit) 
